@@ -17,7 +17,7 @@
     },
     "action": {
         "default_popup": "popup.html",
-        "default_title": "Highlighter selector"
+        "default_title": "Highlighter menu"
     },
     "icons": {
         "16": "highlighter.png",
