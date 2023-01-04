@@ -20,7 +20,10 @@
         "default_title": "Highlighter selector"
     },
     "icons": {
-        "64": "highlighter.png"
+        "16": "highlighter.png",
+        "48": "highlighter.png",
+        "64": "highlighter.png",
+        "128": "highlighter.png"
     },
     "permissions": [
         "tabs"

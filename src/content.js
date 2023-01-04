@@ -1,15 +1,13 @@
 console.log("Chrome extension ready to go!");
 let clicked = false;
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((request) => {
     // checking if popup button has been clicked
     if (request.task) {
         highlight(request.task);
     }
 
     clicked = !clicked;
-    const response = { status: "done" };
-    sendResponse(response);
 });
 
 function makeEditableAndHighlight(colour) {

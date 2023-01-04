@@ -13,9 +13,7 @@ btnYellow.addEventListener('click', () => {
             {
                 task: "yellow"
             },
-            function (response) {
-                console.log(response.status);
-            });
+        );
     })
 })
 
@@ -28,9 +26,7 @@ btnPink.addEventListener('click', () => {
             {
                 task: "#FA3BF0"
             },
-            function (response) {
-                console.log(response.status);
-            });
+        );
     })
 })
 
@@ -43,9 +39,7 @@ btnGreen.addEventListener('click', () => {
             {
                 task: "#5DE23C"
             },
-            function (response) {
-                console.log(response.status);
-            });
+        );
     })
 })
 
@@ -58,9 +52,7 @@ btnBlue.addEventListener('click', () => {
             {
                 task: "#30C5FF"
             },
-            function (response) {
-                console.log(response.status);
-            });
+        );
     })
 })
 
@@ -73,8 +65,6 @@ btnClear.addEventListener('click', () => {
             {
                 task: "transparent"
             },
-            function (response) {
-                console.log(response.status);
-            });
+        );
     })
 })
