@@ -6,7 +6,7 @@ A simple chrome extension that allows the user to highlight text on webpages by 
 
 <br></br>
 Not released on the chrome web store. If you would like to use this extension locally then follow the steps below: 
-1. Head to ![chrome://extensions/](#chrome://extensions/) (or ![edge://extensions/](edge://extensions/) for edge users)
+1. Head to ![Chrome Extensions](chrome://extensions/) (or ![Edge Extensions](edge://extensions/) for edge users)
 2. Click 'Load unpacked' (make sure you first enable developer mode)
 3. Upload 'Text-Highlighter-Chrome-Extension/src' 
 4. Finally, enable the chrome extension!
