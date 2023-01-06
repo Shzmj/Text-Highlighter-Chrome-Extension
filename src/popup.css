@@ -26,7 +26,40 @@ button {
 
 .yellowBtn {
     background-color: yellow;
+    position: relative;
     opacity: 70%;
+}
+
+.yellowBtn:after,
+.yellowBtn:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: all 0.4s, opacity 0.1s 0.4s;
+    opacity: 0;
+}
+
+.yellowBtn:after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid yellow;
+    border-right: 3px solid yellow;
+}
+
+.yellowBtn:before {
+    top: 0;
+    left: 0;
+    border-top: 3px solid yellow;
+    border-left: 3px solid yellow;
+}
+
+.yellowBtn:hover:after,
+.yellowBtn:hover:before {
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    transition: 0.4s, opacity 0.1s;
+    opacity: 1;
 }
 
 .pinkBtn {
