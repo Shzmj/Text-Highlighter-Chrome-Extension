@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener((request) => {
 });
 
 /*
-* The below functions were sourced from https://stackoverflow.com/a/3224513
+* The below (uncommented) functions were sourced from https://stackoverflow.com/a/3224513
 * Author: Tim Down
 * How they work:
 *   - Essentially the below highlight() and makeEditableAndHighlight() functions 
